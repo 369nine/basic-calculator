@@ -1,0 +1,71 @@
+body{
+  background-color: black
+}
+.wrapper {
+  width: 75%;
+}
+
+/*
+.inputField {
+}*/
+
+.inputWrapper {
+  border: white;
+  border-style: dotted;
+  border-width: 1px;
+  border-radius: 0.28571429rem;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: 1.4285em;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 25px;
+  color:#36454F
+}
+
+/*
+.inputTitle {
+}*/
+
+.inputButton {
+  color: black;
+  padding-top: 5px;
+}
+
+.center {
+  margin: auto;
+  display: block;
+}
+
+.imageList {
+  min-height: 1px;
+  background-color: #36454F;
+  margin-top: 10px;
+}
+
+#btn {
+  display: none;
+}
+
+#searchField {
+  width: 99%;
+  height: 30px;
+  color: black
+}
+
+div.images {
+  display: inline-flex;
+  padding-left: 15px;
+}
+
+img {
+  border-radius: 5%;
+  transition: 0.5s;
+  max-width: 230px;
+}
+.attribute_on_click {
+  width: 1000px;
+}
+img:hover {
+  transform: scale(1.5);
+}
